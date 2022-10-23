@@ -48,7 +48,7 @@ sudo apt-get --assume-yes install \
   gdb \
   git \
   gnupg \
-  g++-7 \
+  g++-10 \
   libc-bin \
   libdbus-1-3 \
   libfontconfig1 \

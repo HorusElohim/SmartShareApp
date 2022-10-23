@@ -8,13 +8,13 @@
 
 linux:!android {
   greaterThan(QT_MAJOR_VERSION, 5) {
-    QMAKE_CXX = g++-9
-    QMAKE_LINK = g++-9
-    QMAKE_CC = gcc-9
+    QMAKE_CXX = g++-10
+    QMAKE_LINK = g++-10
+    QMAKE_CC = gcc-10
   } else {
-    QMAKE_CXX = g++-7
-    QMAKE_LINK = g++-7
-    QMAKE_CC = gcc-7
+    QMAKE_CXX = g++-10
+    QMAKE_LINK = g++-10
+    QMAKE_CC = gcc-10
   }
 }
 
